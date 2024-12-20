@@ -1,15 +1,13 @@
 import "./App.css";
-import bird from "/silverica-bird.svg";
-import text from "/silverica-text.svg";
+import silverica from "/silverica.svg";
 
 function App() {
   return (
-    <div className="Box--col">
-      <div className="Box--center">
-        <img src={bird} className="silverica-logo-bird" />
-        <img src={text} className="silverica-logo-text" />
+    <div className="home homeBox--col">
+      <div className="brand brandBox homeItem">
+        <img src={silverica} className="silverica brandItem" />
       </div>
-      <div className="text--left">
+      <div className="homeItem text--left">
         <ul className="projects">
           <li>
             <a href="https://foxtailsmix.com" target="_blank">
